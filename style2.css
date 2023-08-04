@@ -1,0 +1,607 @@
+@font-face {
+    font-family: 'Circular STD';
+    src: url(./Fonts/circular-std-medium-500.ttf);
+}
+.page2{
+    display: flex;
+    font-family:'Circular STD';
+    overflow: hidden;
+    height: 100vh;
+}
+.part1{
+     width: 18vw;
+     background-color: #000;
+     color: white;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .nav2>div>p{
+      font-size: 14px;
+      margin-left: 50px;
+    }
+    .nav-links-1{
+        font-size: 14px;
+    }
+    .nav-links>div>p{
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .track1>div{
+        font-size: 12px;
+    }
+    .pdetails2>p{
+        font-size: 26px;
+    }
+    .track-info-sub>p{
+        font-size: 12px;
+    }
+    #playerimage{
+        width: 20%;
+    }
+    .musicplayerplayer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+.part1{
+    overflow-y: scroll;
+    background-color: #000;
+    
+}
+main{
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.logo>img{
+       width: 70%;
+}
+.nav2{
+    transition: all 0.3s;
+    cursor: pointer;
+    
+}
+.nav2>div:hover{
+    transform: scale(1.05);
+    background-color: #282828;
+    margin-inline: 15px;
+    border-radius: 6px;
+}
+.head1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#282828;
+    border-radius: 4px;
+    margin-inline: 10px;
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.head1>p{
+    margin-right: 100px;
+    margin-top: 15px;
+}
+.head1>img{
+    margin-left: 10px;
+}
+.search>p{
+    margin-right: 105px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #b3b3b3;
+}
+.search>img{
+    margin-left: 20px;
+}
+.head3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: #b3b3b3  ;
+    
+    
+}
+.head3>p{
+    margin-right: 65px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.head3>img{
+    margin-left: 20px;
+}
+.nav-links{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.nav-links>div:hover{
+    transform: scale(1.05);
+    background-color: #282828;
+    margin-inline: 15px;
+    border-radius: 6px;
+}
+.nav-links-2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    color:#b3b3b3;
+    margin: 10px;
+}
+.nav-links-1{
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700; 
+      color:#b3b3b3;
+      margin-left:30px; 
+      margin-top:30px;
+}
+#nav-links-2img{
+    margin-right: 5px;
+}
+
+.nav-links-2>p{
+    margin-right: 30px;
+    margin-top: 15px;
+}
+#nav-links-2p{
+    margin-right: 50px;
+}
+.navborder{
+       margin-left: 20px;
+}
+.nav4>img{
+    width: 100%;
+}
+.nav4{
+     margin-top: 500px;
+     margin-bottom: 130px;
+}
+
+/* CSS DONE OF 1ST PART */
+
+
+.part2{
+    font-family:'Circular STD';
+    color: white;
+  
+}
+.part2-mainpage{
+    width: 82vw;
+    overflow: hidden;
+    overflow-y: scroll;
+   
+}
+.part2-1size{
+    background: linear-gradient(180deg, #90AEA7 0%, #000 100%);
+}
+.part2-1{
+    width: 82vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 11%;
+}
+
+ .playlistflex{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+} 
+.pdetails1{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0px;
+}
+.pdetails2{
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 0px;
+    
+}
+.pdetails3{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color:#b3b3b3;
+} 
+.pdetails4{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pdetails4>img{
+    margin-inline: 5px;
+    margin-bottom: 15px;
+}
+.pdetails4>p{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+.pdetails4text{
+      color: #b3b3b3;
+}
+.playlistbottom{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 40px;
+}
+.playlistbottom>img{
+    margin-right: 30px;
+}
+.playbutton{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.playbutton:hover{
+    transform: scale(1.10);
+}
+.playlistheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: line-through rgb(179,179,179,0.1);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: #b3b3b3;
+    margin-top: 50px;
+}
+#playlisttitle{
+         margin-left: 20px;
+}
+.border1{
+    width: 25vw;
+    padding-right: 50px;
+    border: 1px solid rgb(179,179,179,0.1);
+    margin-bottom: 16px;
+}
+.border2{
+    width: 22vw;
+    border: 1px solid rgb(179,179,179,0.1);
+    margin-bottom: 16px;
+}
+.border3{
+    width: 18vw;
+    border: 1px solid rgb(179,179,179,0.1);
+    margin-bottom: 16px;
+}
+.borderr{
+    width:60px;
+    border: 1px solid rgb(179,179,179,0.1);
+    margin-bottom: 16px;
+}
+
+@font-face {
+    font-family: 'Circular Light';
+    src: url(./Fonts/CircularStd-Light.woff);
+}
+#playlistDetail{
+      display: flex;
+      flex-direction: column;
+      background-color: #000;
+      flex-wrap: wrap;
+      font-family: 'Circular Light';
+}
+.tracklist:hover{
+    transform: scale(1.05);
+}
+.tracklist{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      background-color: #282828;
+      overflow: hidden;
+      width: 78vw;
+      transition: all 0.3s;
+      margin-left: 40px;
+      border-radius: 5px;
+      cursor: pointer;
+}
+.track1{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap:wrap ;
+      margin-left: 15px;
+}
+.track1>p{
+     color:#b3b3b3;
+}
+
+#tracksongname{
+     margin-inline: 10px;
+}
+.track1sub{
+       margin-top:10px;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 400;
+      
+}
+#songartist{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.track2{
+     margin-top: 10px;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+}
+
+.track3{
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color:#b3b3b3 ;
+}
+.track4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-right: 15px;
+}
+.track4>p{
+    margin-inline: 15px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color:#b3b3b3 ;
+    margin-top: 15px;
+}
+.tracklist1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 78vw;
+    /* height: 12vh; */
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: 'Circular Light';
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.tracklist1:hover{
+      transform: scale(1.01);
+      background-color:#282828;
+}
+.track21{
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.track31{
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color:#b3b3b3 ;
+    margin-right: 20px;
+}
+
+#lasttrack{
+    margin-bottom: 60px;
+}
+
+.footermain{
+    width: 82vw;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: rgb(18,18,18);
+    font-family: 'Circular Light';
+}
+.footerclass{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.footerbasic1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content:space-between;
+    color: #535353;
+}
+.footerwildc{
+    color: white;
+}
+.footerbasic1>div{
+    margin-top: 60px;
+    margin-inline: 30px;
+    margin-bottom: 65px;
+
+}
+
+.footerbasic1>div>p{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.footerbasic1>div>p:hover{
+    transform: scale(1.10);
+    text-decoration: underline;
+    color: white;
+}
+.footerbasic2{
+    margin-top: 60px;
+    color: white;
+    margin-right: 30px;
+
+}
+.footerbasic2>i{
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.footerbasic2>i:hover{
+    transform: scale(1.15);
+}
+
+
+.footerborder{
+    width: 78vw;
+    border: 1px solid rgb(255,255,255, 0.1);
+    margin-left: 30px;
+}
+.trademark{
+    margin-left: 30px;
+    color: #535353;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+/* player CSS starts from below */
+
+.player{
+    position: fixed;
+    z-index: 1000;
+    bottom: 0px;
+    right: 0px;
+    width: 100vw;
+    height: 17vh;
+    background-color: #181818;
+    
+} 
+
+/* .musicplayerplayer>div{
+    margin-bottom: 50px;
+} */
+
+.musicplayerplayer{
+    /* height:15vh; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+    flex-wrap: wrap;
+}
+
+.track-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+.track-info>img{
+    margin-right: 10px;
+}
+
+.track-info-sub{
+    margin-top: 30px;
+    font-size: 14px;
+    font-style: normal;
+    margin-inline: 10px;
+     
+}
+.musicplayer-middle{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+
+}
+.controls>img{
+     margin-inline: 10px;
+      
+}
+.controls{
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 30vw;
+    transition: all 0.3s;
+    cursor: pointer;
+} 
+.controls>img:hover{
+    transform: scale(1.15);
+}
+.progress-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.progress-border-1{
+    border: 3px solid #C4C4C4;
+    border-radius: 2.5px;
+    width:35vw;
+    margin-bottom: 30px;
+   
+}
+.progress-border-2{
+    border: 3px solid #535353;
+    border-radius: 0px 2.5px 2.5px 0px;
+    width:10vw;
+    margin-bottom: 30px;
+}
+
+.progress-bar>p{
+    margin-bottom: 30px;
+}
+.progress-textl{
+    margin-right: 10px;
+    
+   
+}
+.progress-textr{
+    margin-left: 10px;
+}
+.volume{
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
